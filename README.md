@@ -1,3 +1,22 @@
+DEAP是一种用于快速原型设计和思想测试的新型进化计算框架。它旨在使算法明确，数据结构透明。它与多处理和SCOOP等并行机制完美协调。
+
+DEAP包括以下功能：
+
+使用任何可想象的表示的遗传算法
+列表，数组，集，字典，树，Numpy数组等
+使用前缀树进行遗传编程
+松散打字，强烈打字
+自动定义的功能
+进化策略（包括CMA-ES）
+多目标优化（NSGA-II，SPEA2，MO-CMA-ES）
+多个群体的共同进化（合作和竞争）
+评估的并行化（以及更多）
+居住在人口中的最佳人物名人堂
+定期拍摄系统快照的检查点
+包含最常见测试功能的基准测试模块
+进化的谱系（与NetworkX兼容）
+替代算法的示例：粒子群优化，差分进化，分布估计算法
+
 # DEAP
 
 [![Build status](https://travis-ci.org/DEAP/deap.svg?branch=master)](https://travis-ci.org/DEAP/deap) [![Download](https://img.shields.io/pypi/dm/deap.svg)](https://pypi.python.org/pypi/deap) [![Join the chat at https://gitter.im/DEAP/deap](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/DEAP/deap?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
